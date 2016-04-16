@@ -743,7 +743,6 @@ void runAndCompute(int start) {
     delete[] parents;
     delete[] distances;
 }
-void search_route(char *topo[5000], int edge_num, char *demand) {
 	int _suoyin,_qidian,_zhongdian,_haofei;
 	char fenge;
 	stringstream stream;
